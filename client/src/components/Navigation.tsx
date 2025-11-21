@@ -36,7 +36,15 @@ export function Navigation() {
   const navLinks = [
     { href: "/", label: "Home" },
     { href: "/about", label: "About" },
-    { href: "/services", label: "Services" },
+    { 
+      href: "/services", 
+      label: "Services",
+      sublinks: [
+        { href: "/services/e-governance", label: "E-Governance" },
+        { href: "/services/spatial-planning", label: "Spatial Planning" },
+        { href: "/services/data-engineering", label: "Data Engineering" },
+      ]
+    },
     { href: "/projects", label: "Use Cases" },
     { href: "/contact", label: "Contact" },
   ];
@@ -60,18 +68,35 @@ export function Navigation() {
 
           <div className="hidden md:flex md:items-center md:gap-1">
             {navLinks.map((link) => (
-              <Link 
-                key={link.href} 
-                href={link.href}
-                data-testid={`link-nav-${link.label.toLowerCase().replace(" ", "-")}`}
-                className={`px-4 py-2 text-sm font-medium transition-colors hover-elevate active-elevate-2 rounded-md ${
-                  location === link.href
-                    ? "text-foreground"
-                    : "text-muted-foreground"
-                }`}
-              >
-                {link.label}
-              </Link>
+              <div key={link.href} className="relative group">
+                <Link 
+                  href={link.href}
+                  data-testid={`link-nav-${link.label.toLowerCase().replace(" ", "-")}`}
+                  className={`px-4 py-2 text-sm font-medium transition-colors hover-elevate active-elevate-2 rounded-md ${
+                    location === link.href
+                      ? "text-foreground"
+                      : "text-muted-foreground"
+                  }`}
+                >
+                  {link.label}
+                </Link>
+                {(link as any).sublinks && (
+                  <div className="absolute left-0 pt-2 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                    <div className="bg-background border rounded-md shadow-lg py-2">
+                      {(link as any).sublinks.map((sublink: any) => (
+                        <Link
+                          key={sublink.href}
+                          href={sublink.href}
+                          data-testid={`link-nav-${sublink.label.toLowerCase().replace(" ", "-")}`}
+                          className="block px-4 py-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+                        >
+                          {sublink.label}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
             ))}
           </div>
 
@@ -115,22 +140,37 @@ export function Navigation() {
               className="absolute left-0 right-0 top-16 bg-background border-b shadow-lg md:hidden"
               data-testid="mobile-menu"
             >
-              <div className="container mx-auto px-4 py-6 space-y-4">
+              <div className="container mx-auto px-4 py-6 space-y-2">
                 {navLinks.map((link) => (
-                  <Link 
-                    key={link.href} 
-                    href={link.href}
-                    data-testid={`link-mobile-${link.label.toLowerCase().replace(" ", "-")}`}
-                    className={`block px-4 py-3 text-base font-medium rounded-md transition-colors hover-elevate active-elevate-2 ${
-                      location === link.href
-                        ? "bg-accent/10 text-foreground"
-                        : "text-muted-foreground"
-                    }`}
-                  >
-                    {link.label}
-                  </Link>
+                  <div key={link.href}>
+                    <Link 
+                      href={link.href}
+                      data-testid={`link-mobile-${link.label.toLowerCase().replace(" ", "-")}`}
+                      className={`block px-4 py-3 text-base font-medium rounded-md transition-colors hover-elevate active-elevate-2 ${
+                        location === link.href
+                          ? "bg-accent/10 text-foreground"
+                          : "text-muted-foreground"
+                      }`}
+                    >
+                      {link.label}
+                    </Link>
+                    {(link as any).sublinks && (
+                      <div className="pl-4 space-y-1 pt-1">
+                        {(link as any).sublinks.map((sublink: any) => (
+                          <Link
+                            key={sublink.href}
+                            href={sublink.href}
+                            data-testid={`link-mobile-${sublink.label.toLowerCase().replace(" ", "-")}`}
+                            className="block px-4 py-2 text-sm text-muted-foreground hover:text-foreground transition-colors rounded-md hover-elevate active-elevate-2"
+                          >
+                            {sublink.label}
+                          </Link>
+                        ))}
+                      </div>
+                    )}
+                  </div>
                 ))}
-                <div className="pt-2">
+                <div className="pt-4 border-t">
                   <Link href="/contact">
                     <Button
                       data-testid="button-mobile-cta-contact"
