@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 import { MapPin, Mail, Phone, Linkedin, Twitter, Youtube } from "lucide-react";
-import digiregLogo from "@assets/generated_images/digireg_kenya_professional_geospatial_company_logo.png";
+import digiregLogo from "@assets/image_1763729297448.png";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
