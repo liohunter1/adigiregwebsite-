@@ -1,6 +1,8 @@
 import { Link } from "wouter";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
+import { ServiceNavigator } from "@/components/ServiceNavigator";
+import { siteAssets } from "@/config/assets";
 import { ArrowRight } from "lucide-react";
 
 export default function DataEngineeringPage() {
@@ -13,7 +15,7 @@ export default function DataEngineeringPage() {
           <iframe
             width="100%"
             height="100%"
-            src="https://www.youtube.com/embed/WSOfEndqOMM?autoplay=1&mute=1&controls=0&rel=0&modestbranding=1&loop=1&playlist=WSOfEndqOMM"
+            src="https://www.youtube.com/embed/WSOfEndqOMM?autoplay=1&mute=1&controls=0&rel=0&modestbranding=1&loop=1&playlist=WSOfEndqOMM&fs=0&iv_load_policy=3"
             title="Data Engineering Solutions"
             frameBorder="0"
             allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -60,6 +62,13 @@ export default function DataEngineeringPage() {
               transition={{ duration: 0.6 }}
               className="space-y-4"
             >
+              <div className="rounded-lg overflow-hidden h-64 mb-6">
+                <img
+                  src={siteAssets.services.dataEngineering}
+                  alt="Detailed Object Registration Mapping"
+                  className="w-full h-full object-cover hover-elevate transition-transform duration-300"
+                />
+              </div>
               <h2 className="font-heading text-3xl font-bold text-foreground" data-testid="text-detailed-mapping">
                 Detailed Object Registration Mapping
               </h2>

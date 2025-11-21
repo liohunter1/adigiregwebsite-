@@ -1,6 +1,8 @@
 import { Link } from "wouter";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
+import { ServiceNavigator } from "@/components/ServiceNavigator";
+import { siteAssets } from "@/config/assets";
 import { ArrowRight } from "lucide-react";
 
 export default function SpatialPlanningPage() {
@@ -13,7 +15,7 @@ export default function SpatialPlanningPage() {
           <iframe
             width="100%"
             height="100%"
-            src="https://www.youtube.com/embed/b0tQrv9A-wo?autoplay=1&mute=1&controls=0&rel=0&modestbranding=1&loop=1&playlist=b0tQrv9A-wo"
+            src="https://www.youtube.com/embed/b0tQrv9A-wo?autoplay=1&mute=1&controls=0&rel=0&modestbranding=1&loop=1&playlist=b0tQrv9A-wo&fs=0&iv_load_policy=3"
             title="Spatial Planning Solutions"
             frameBorder="0"
             allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -60,6 +62,13 @@ export default function SpatialPlanningPage() {
               transition={{ duration: 0.6 }}
               className="space-y-4"
             >
+              <div className="rounded-lg overflow-hidden h-64 mb-6">
+                <img
+                  src={siteAssets.services.spatialPlanning}
+                  alt="GIS-Based Spatial Plans"
+                  className="w-full h-full object-cover hover-elevate transition-transform duration-300"
+                />
+              </div>
               <h2 className="font-heading text-3xl font-bold text-foreground" data-testid="text-gis-spatial-plan">
                 GIS-Based Spatial Plans
               </h2>
@@ -165,6 +174,9 @@ export default function SpatialPlanningPage() {
           </div>
         </div>
       </section>
+
+      {/* Service Navigator */}
+      <ServiceNavigator />
 
       {/* CTA Section */}
       <section className="py-20 bg-primary/10">
