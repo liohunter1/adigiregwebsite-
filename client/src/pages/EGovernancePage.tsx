@@ -60,9 +60,9 @@ export default function EGovernancePage() {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="space-y-4"
+              className="space-y-4 text-center"
             >
-              <div className="rounded-lg overflow-hidden h-64 mb-6">
+              <div className="rounded-lg overflow-hidden h-64 mb-6 mx-auto flex items-center justify-center">
                 <img
                   src={siteAssets.services.eGovernance}
                   alt="Digital Spatial Planning"
@@ -85,7 +85,7 @@ export default function EGovernancePage() {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="space-y-4"
+              className="space-y-4 text-center"
             >
               <div className="rounded-lg overflow-hidden h-64 mb-6 bg-muted">
                 <img
@@ -96,10 +96,10 @@ export default function EGovernancePage() {
                   style={{ aspectRatio: '16/9' }}
                 />
               </div>
-              <p className="text-muted-foreground text-lg">
+              <p className="text-muted-foreground text-lg text-left">
                 Geospatial information is becoming an essential asset management companion. Our object registration system provides a digital twin of all objects/features on the ground at 10-20cm scale, enabling multiple teams to track maintenance tasks and manage work orders effectively.
               </p>
-              <p className="text-muted-foreground">
+              <p className="text-muted-foreground text-left">
                 Particularly valuable for infrastructure and utilities industry, especially for roads maintenance, our system allows web-based access for all stakeholders with smart GIS analysis based on your specific questions.
               </p>
             </motion.div>
@@ -109,7 +109,7 @@ export default function EGovernancePage() {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="space-y-4"
+              className="space-y-4 text-center"
             >
               <div className="rounded-lg overflow-hidden h-64 mb-6 bg-muted">
                 <img
@@ -120,10 +120,10 @@ export default function EGovernancePage() {
                   style={{ aspectRatio: '16/9' }}
                 />
               </div>
-              <p className="text-muted-foreground text-lg">
+              <p className="text-muted-foreground text-lg text-left">
                 Our GIS-based comprehensive land administration system enables governments to improve land information management (cadastral), property valuation and analysis, and communication with the public.
               </p>
-              <p className="text-muted-foreground">
+              <p className="text-muted-foreground text-left">
                 A single platform provides accurate property representation and understanding, secure and authoritative land records, and parcel data for widespread government and public use. We ensure accuracy and precision with multiple quality checks during data processing.
               </p>
             </motion.div>
@@ -133,7 +133,7 @@ export default function EGovernancePage() {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="space-y-4"
+              className="space-y-4 text-center"
             >
               <div className="rounded-lg overflow-hidden h-64 mb-6 bg-muted">
                 <img
@@ -144,10 +144,10 @@ export default function EGovernancePage() {
                   style={{ aspectRatio: '16/9' }}
                 />
               </div>
-              <p className="text-muted-foreground text-lg">
+              <p className="text-muted-foreground text-lg text-left">
                 Technology plays a crucial role in rapid economic growth. Our GIS solutions help farmers and stakeholders achieve increased production and reduced costs through better land resource management.
               </p>
-              <p className="text-muted-foreground">
+              <p className="text-muted-foreground text-left">
                 We accurately map geographic and geologic features of farmlands and project current and future fluctuations in precipitation, temperature, and crop output for more effective farming techniques.
               </p>
             </motion.div>
@@ -157,7 +157,7 @@ export default function EGovernancePage() {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="space-y-4"
+              className="space-y-4 text-center"
             >
               <div className="rounded-lg overflow-hidden h-64 mb-6 bg-muted">
                 <img
@@ -168,10 +168,10 @@ export default function EGovernancePage() {
                   style={{ aspectRatio: '16/9' }}
                 />
               </div>
-              <p className="text-muted-foreground text-lg">
+              <p className="text-muted-foreground text-lg text-left">
                 We provide comprehensive audits of your Geo-ICT environment using our knowledge of software, hardware, and industry best practices.
               </p>
-              <div className="bg-muted/30 p-6 rounded-lg space-y-3 mt-6">
+              <div className="bg-muted/30 p-6 rounded-lg space-y-3 mt-6 text-left">
                 <p className="font-semibold text-foreground">Our audit includes:</p>
                 <ul className="space-y-2 text-sm text-muted-foreground">
                   <li className="flex items-start gap-2">

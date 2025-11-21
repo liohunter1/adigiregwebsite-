@@ -60,7 +60,7 @@ export default function SpatialPlanningPage() {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="space-y-4"
+              className="space-y-4 text-center"
             >
               <div className="rounded-lg overflow-hidden h-64 mb-6">
                 <img
@@ -107,7 +107,7 @@ export default function SpatialPlanningPage() {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="space-y-4"
+              className="space-y-4 text-center"
             >
               <div className="rounded-lg overflow-hidden h-64 mb-6 bg-muted">
                 <img
@@ -147,7 +147,7 @@ export default function SpatialPlanningPage() {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="space-y-4"
+              className="space-y-4 text-center"
             >
               <div className="rounded-lg overflow-hidden h-64 mb-6 bg-muted">
                 <img
@@ -171,7 +171,7 @@ export default function SpatialPlanningPage() {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="space-y-4"
+              className="space-y-4 text-center"
             >
               <h2 className="font-heading text-3xl font-bold text-foreground" data-testid="text-planning-framework">
                 Planning Framework Development

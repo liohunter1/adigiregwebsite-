@@ -60,7 +60,7 @@ export default function DataEngineeringPage() {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="space-y-4"
+              className="space-y-4 text-center"
             >
               <div className="rounded-lg overflow-hidden h-64 mb-6">
                 <img
@@ -88,7 +88,7 @@ export default function DataEngineeringPage() {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="space-y-4"
+              className="space-y-4 text-center"
             >
               <div className="rounded-lg overflow-hidden h-64 mb-6 bg-muted">
                 <img
@@ -127,7 +127,7 @@ export default function DataEngineeringPage() {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="space-y-4"
+              className="space-y-4 text-center"
             >
               <div className="rounded-lg overflow-hidden h-64 mb-6 bg-muted">
                 <img
@@ -151,7 +151,7 @@ export default function DataEngineeringPage() {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="space-y-4"
+              className="space-y-4 text-center"
             >
               <div className="rounded-lg overflow-hidden h-64 mb-6 bg-muted">
                 <img
@@ -186,7 +186,7 @@ export default function DataEngineeringPage() {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="space-y-4"
+              className="space-y-4 text-center"
             >
               <div className="rounded-lg overflow-hidden h-64 mb-6 bg-muted">
                 <img
