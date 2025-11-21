@@ -87,6 +87,13 @@ export default function EGovernancePage() {
               transition={{ duration: 0.6 }}
               className="space-y-4"
             >
+              <div className="rounded-lg overflow-hidden h-64 mb-6">
+                <img
+                  src={siteAssets.eGovernanceDetails.assetManagement}
+                  alt="Asset Management Systems"
+                  className="w-full h-full object-cover hover-elevate transition-transform duration-300"
+                />
+              </div>
               <h2 className="font-heading text-3xl font-bold text-foreground" data-testid="text-asset-management">
                 Asset Management Systems
               </h2>
@@ -105,6 +112,13 @@ export default function EGovernancePage() {
               transition={{ duration: 0.6 }}
               className="space-y-4"
             >
+              <div className="rounded-lg overflow-hidden h-64 mb-6">
+                <img
+                  src={siteAssets.eGovernanceDetails.lims}
+                  alt="Land Information Management Systems"
+                  className="w-full h-full object-cover hover-elevate transition-transform duration-300"
+                />
+              </div>
               <h2 className="font-heading text-3xl font-bold text-foreground" data-testid="text-lims">
                 Land Information Management Systems
               </h2>
@@ -123,6 +137,13 @@ export default function EGovernancePage() {
               transition={{ duration: 0.6 }}
               className="space-y-4"
             >
+              <div className="rounded-lg overflow-hidden h-64 mb-6">
+                <img
+                  src={siteAssets.eGovernanceDetails.agricultural}
+                  alt="Agricultural Management Systems"
+                  className="w-full h-full object-cover hover-elevate transition-transform duration-300"
+                />
+              </div>
               <h2 className="font-heading text-3xl font-bold text-foreground" data-testid="text-agricultural-management">
                 Agricultural Management Systems
               </h2>
@@ -141,6 +162,13 @@ export default function EGovernancePage() {
               transition={{ duration: 0.6 }}
               className="space-y-4"
             >
+              <div className="rounded-lg overflow-hidden h-64 mb-6">
+                <img
+                  src={siteAssets.eGovernanceDetails.ictAudit}
+                  alt="Geo-ICT Audits & Optimization"
+                  className="w-full h-full object-cover hover-elevate transition-transform duration-300"
+                />
+              </div>
               <h2 className="font-heading text-3xl font-bold text-foreground" data-testid="text-ict-services">
                 Geo-ICT Audits & Optimization
               </h2>

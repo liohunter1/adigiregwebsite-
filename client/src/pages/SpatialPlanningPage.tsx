@@ -109,6 +109,13 @@ export default function SpatialPlanningPage() {
               transition={{ duration: 0.6 }}
               className="space-y-4"
             >
+              <div className="rounded-lg overflow-hidden h-64 mb-6">
+                <img
+                  src={siteAssets.spatialPlanningDetails.zonalPlans}
+                  alt="Zonal Plans & Development Regulations"
+                  className="w-full h-full object-cover hover-elevate transition-transform duration-300"
+                />
+              </div>
               <h2 className="font-heading text-3xl font-bold text-foreground" data-testid="text-zonal-plans">
                 Zonal Plans & Development Regulations
               </h2>
@@ -143,6 +150,13 @@ export default function SpatialPlanningPage() {
               transition={{ duration: 0.6 }}
               className="space-y-4"
             >
+              <div className="rounded-lg overflow-hidden h-64 mb-6">
+                <img
+                  src={siteAssets.spatialPlanningDetails.urbanDesign}
+                  alt="Urban Design & 3D Visualization"
+                  className="w-full h-full object-cover hover-elevate transition-transform duration-300"
+                />
+              </div>
               <h2 className="font-heading text-3xl font-bold text-foreground" data-testid="text-urban-design">
                 Urban Design & 3D Visualization
               </h2>

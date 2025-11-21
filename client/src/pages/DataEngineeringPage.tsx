@@ -90,6 +90,13 @@ export default function DataEngineeringPage() {
               transition={{ duration: 0.6 }}
               className="space-y-4"
             >
+              <div className="rounded-lg overflow-hidden h-64 mb-6">
+                <img
+                  src={siteAssets.dataEngineeringDetails.aiGis}
+                  alt="Artificial Intelligence & GIS Integration"
+                  className="w-full h-full object-cover hover-elevate transition-transform duration-300"
+                />
+              </div>
               <h2 className="font-heading text-3xl font-bold text-foreground" data-testid="text-ai-gis">
                 Artificial Intelligence & GIS Integration
               </h2>
@@ -123,6 +130,13 @@ export default function DataEngineeringPage() {
               transition={{ duration: 0.6 }}
               className="space-y-4"
             >
+              <div className="rounded-lg overflow-hidden h-64 mb-6">
+                <img
+                  src={siteAssets.eGovernanceDetails.assetManagement}
+                  alt="GIS Analysis & Data Processing"
+                  className="w-full h-full object-cover hover-elevate transition-transform duration-300"
+                />
+              </div>
               <h2 className="font-heading text-3xl font-bold text-foreground" data-testid="text-gis-analysis">
                 GIS Analysis & Data Processing
               </h2>
@@ -141,6 +155,13 @@ export default function DataEngineeringPage() {
               transition={{ duration: 0.6 }}
               className="space-y-4"
             >
+              <div className="rounded-lg overflow-hidden h-64 mb-6">
+                <img
+                  src={siteAssets.dataEngineeringDetails.landSurvey}
+                  alt="Land Survey Services"
+                  className="w-full h-full object-cover hover-elevate transition-transform duration-300"
+                />
+              </div>
               <h2 className="font-heading text-3xl font-bold text-foreground" data-testid="text-land-services">
                 Land Survey Services
               </h2>
@@ -170,6 +191,13 @@ export default function DataEngineeringPage() {
               transition={{ duration: 0.6 }}
               className="space-y-4"
             >
+              <div className="rounded-lg overflow-hidden h-64 mb-6">
+                <img
+                  src={siteAssets.dataEngineeringDetails.training}
+                  alt="Geo-Scripting & Training"
+                  className="w-full h-full object-cover hover-elevate transition-transform duration-300"
+                />
+              </div>
               <h2 className="font-heading text-3xl font-bold text-foreground" data-testid="text-scripting-training">
                 Geo-Scripting & Training
               </h2>

@@ -12,6 +12,17 @@
  * Then use: heroBackground: heroImage
  */
 
+// Import generated service images featuring Black Kenyan professionals
+import assetManagementImg from '@assets/generated_images/team_working_with_gis_data_visualization.png';
+import limsImg from '@assets/generated_images/officials_reviewing_property_management_system.png';
+import agriculturalImg from '@assets/generated_images/agricultural_experts_analyzing_farm_data.png';
+import ictAuditImg from '@assets/generated_images/it_professionals_conducting_tech_audit.png';
+import zonalPlansImg from '@assets/generated_images/community_consultation_planning_meeting.png';
+import urbanDesignImg from '@assets/generated_images/urban_designers_presenting_3d_models.png';
+import aiGisImg from '@assets/generated_images/data_scientists_using_ai_for_analysis.png';
+import landSurveyImg from '@assets/generated_images/land_surveyors_at_work_in_rural_area.png';
+import trainingImg from '@assets/generated_images/gis_training_workshop_in_progress.png';
+
 export const siteAssets = {
   // Hero section background
   // Recommended: 2070x1380px (3:2), WebP or optimized JPEG
@@ -31,6 +42,27 @@ export const siteAssets = {
     eGovernance: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop",
     spatialPlanning: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop",
     dataEngineering: "https://images.unsplash.com/photo-1551033406-611cf9a28f67?q=80&w=2070&auto=format&fit=crop",
+  },
+  
+  // E-Governance service details - featuring Black Kenyan professionals
+  eGovernanceDetails: {
+    assetManagement: assetManagementImg,
+    lims: limsImg,
+    agricultural: agriculturalImg,
+    ictAudit: ictAuditImg,
+  },
+  
+  // Spatial Planning service details
+  spatialPlanningDetails: {
+    zonalPlans: zonalPlansImg,
+    urbanDesign: urbanDesignImg,
+  },
+  
+  // Data Engineering service details
+  dataEngineeringDetails: {
+    aiGis: aiGisImg,
+    landSurvey: landSurveyImg,
+    training: trainingImg,
   },
   
   // About and team images
