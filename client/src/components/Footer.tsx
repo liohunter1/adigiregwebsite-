@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { MapPin, Mail, Phone, Linkedin, Twitter, Youtube } from "lucide-react";
+import digiregLogo from "@assets/generated_images/digireg_kenya_professional_geospatial_company_logo.png";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -10,9 +11,14 @@ export function Footer() {
         <div className="grid md:grid-cols-5 gap-8 mb-12">
           {/* Company Info */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <MapPin className="h-6 w-6 text-primary" />
-              <span className="font-heading text-xl font-bold">DIGIREG</span>
+            <div className="mb-4">
+              <img 
+                src={digiregLogo} 
+                alt="Digireg Kenya Logo" 
+                className="h-16 w-16 object-contain mb-3"
+                data-testid="img-digireg-logo"
+              />
+              <span className="font-heading text-xl font-bold text-secondary-foreground">DIGIREG</span>
             </div>
             <p className="text-sm text-secondary-foreground/80 mb-4">
               Turning data into decisions for a smarter Kenya
