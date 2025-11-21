@@ -87,16 +87,13 @@ export default function EGovernancePage() {
               transition={{ duration: 0.6 }}
               className="space-y-4"
             >
-              <div className="rounded-lg overflow-hidden h-64 mb-6">
+              <div className="rounded-lg overflow-hidden h-80 mb-6">
                 <img
                   src={siteAssets.eGovernanceDetails.assetManagement}
                   alt="Asset Management Systems"
                   className="w-full h-full object-cover hover-elevate transition-transform duration-300"
                 />
               </div>
-              <h2 className="font-heading text-3xl font-bold text-foreground" data-testid="text-asset-management">
-                Asset Management Systems
-              </h2>
               <p className="text-muted-foreground text-lg">
                 Geospatial information is becoming an essential asset management companion. Our object registration system provides a digital twin of all objects/features on the ground at 10-20cm scale, enabling multiple teams to track maintenance tasks and manage work orders effectively.
               </p>
@@ -112,16 +109,13 @@ export default function EGovernancePage() {
               transition={{ duration: 0.6 }}
               className="space-y-4"
             >
-              <div className="rounded-lg overflow-hidden h-64 mb-6">
+              <div className="rounded-lg overflow-hidden h-80 mb-6">
                 <img
                   src={siteAssets.eGovernanceDetails.lims}
                   alt="Land Information Management Systems"
                   className="w-full h-full object-cover hover-elevate transition-transform duration-300"
                 />
               </div>
-              <h2 className="font-heading text-3xl font-bold text-foreground" data-testid="text-lims">
-                Land Information Management Systems
-              </h2>
               <p className="text-muted-foreground text-lg">
                 Our GIS-based comprehensive land administration system enables governments to improve land information management (cadastral), property valuation and analysis, and communication with the public.
               </p>
@@ -137,16 +131,13 @@ export default function EGovernancePage() {
               transition={{ duration: 0.6 }}
               className="space-y-4"
             >
-              <div className="rounded-lg overflow-hidden h-64 mb-6">
+              <div className="rounded-lg overflow-hidden h-80 mb-6">
                 <img
                   src={siteAssets.eGovernanceDetails.agricultural}
                   alt="Agricultural Management Systems"
                   className="w-full h-full object-cover hover-elevate transition-transform duration-300"
                 />
               </div>
-              <h2 className="font-heading text-3xl font-bold text-foreground" data-testid="text-agricultural-management">
-                Agricultural Management Systems
-              </h2>
               <p className="text-muted-foreground text-lg">
                 Technology plays a crucial role in rapid economic growth. Our GIS solutions help farmers and stakeholders achieve increased production and reduced costs through better land resource management.
               </p>
@@ -162,16 +153,13 @@ export default function EGovernancePage() {
               transition={{ duration: 0.6 }}
               className="space-y-4"
             >
-              <div className="rounded-lg overflow-hidden h-64 mb-6">
+              <div className="rounded-lg overflow-hidden h-80 mb-6">
                 <img
                   src={siteAssets.eGovernanceDetails.ictAudit}
                   alt="Geo-ICT Audits & Optimization"
                   className="w-full h-full object-cover hover-elevate transition-transform duration-300"
                 />
               </div>
-              <h2 className="font-heading text-3xl font-bold text-foreground" data-testid="text-ict-services">
-                Geo-ICT Audits & Optimization
-              </h2>
               <p className="text-muted-foreground text-lg">
                 We provide comprehensive audits of your Geo-ICT environment using our knowledge of software, hardware, and industry best practices.
               </p>

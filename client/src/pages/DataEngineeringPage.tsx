@@ -90,16 +90,13 @@ export default function DataEngineeringPage() {
               transition={{ duration: 0.6 }}
               className="space-y-4"
             >
-              <div className="rounded-lg overflow-hidden h-64 mb-6">
+              <div className="rounded-lg overflow-hidden h-80 mb-6">
                 <img
                   src={siteAssets.dataEngineeringDetails.aiGis}
                   alt="Artificial Intelligence & GIS Integration"
                   className="w-full h-full object-cover hover-elevate transition-transform duration-300"
                 />
               </div>
-              <h2 className="font-heading text-3xl font-bold text-foreground" data-testid="text-ai-gis">
-                Artificial Intelligence & GIS Integration
-              </h2>
               <p className="text-muted-foreground text-lg">
                 AI-GIS combines artificial intelligence technology with GIS functions, including spatial data processing and analysis algorithms. This combination opens promising possibilities, especially in infrastructure and utilities.
               </p>
@@ -130,16 +127,13 @@ export default function DataEngineeringPage() {
               transition={{ duration: 0.6 }}
               className="space-y-4"
             >
-              <div className="rounded-lg overflow-hidden h-64 mb-6">
+              <div className="rounded-lg overflow-hidden h-80 mb-6">
                 <img
-                  src={siteAssets.eGovernanceDetails.assetManagement}
+                  src={siteAssets.dataEngineeringDetails.gisAnalysis}
                   alt="GIS Analysis & Data Processing"
                   className="w-full h-full object-cover hover-elevate transition-transform duration-300"
                 />
               </div>
-              <h2 className="font-heading text-3xl font-bold text-foreground" data-testid="text-gis-analysis">
-                GIS Analysis & Data Processing
-              </h2>
               <p className="text-muted-foreground text-lg">
                 GIS analysis creates new information and discovers differences between source files. Our smart GIS specialists analyze data based on your specific questions with 90-99% accuracy.
               </p>
@@ -155,16 +149,13 @@ export default function DataEngineeringPage() {
               transition={{ duration: 0.6 }}
               className="space-y-4"
             >
-              <div className="rounded-lg overflow-hidden h-64 mb-6">
+              <div className="rounded-lg overflow-hidden h-80 mb-6">
                 <img
                   src={siteAssets.dataEngineeringDetails.landSurvey}
                   alt="Land Survey Services"
                   className="w-full h-full object-cover hover-elevate transition-transform duration-300"
                 />
               </div>
-              <h2 className="font-heading text-3xl font-bold text-foreground" data-testid="text-land-services">
-                Land Survey Services
-              </h2>
               <p className="text-muted-foreground text-lg">
                 We offer a wide range of survey services backed by our qualified surveyors with extensive knowledge in surveying and geospatial data collection.
               </p>
@@ -191,16 +182,13 @@ export default function DataEngineeringPage() {
               transition={{ duration: 0.6 }}
               className="space-y-4"
             >
-              <div className="rounded-lg overflow-hidden h-64 mb-6">
+              <div className="rounded-lg overflow-hidden h-80 mb-6">
                 <img
                   src={siteAssets.dataEngineeringDetails.training}
                   alt="Geo-Scripting & Training"
                   className="w-full h-full object-cover hover-elevate transition-transform duration-300"
                 />
               </div>
-              <h2 className="font-heading text-3xl font-bold text-foreground" data-testid="text-scripting-training">
-                Geo-Scripting & Training
-              </h2>
               <p className="text-muted-foreground text-lg">
                 Scripts for geo-ICT can make a world of difference. We write custom scripts that automate standard activities without sacrificing quality, enabling complex tasks to be completed in shorter timeframes while increasing productivity.
               </p>

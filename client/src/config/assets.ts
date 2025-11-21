@@ -12,16 +12,17 @@
  * Then use: heroBackground: heroImage
  */
 
-// Import generated service images featuring Black Kenyan professionals
-import assetManagementImg from '@assets/generated_images/team_working_with_gis_data_visualization.png';
-import limsImg from '@assets/generated_images/officials_reviewing_property_management_system.png';
-import agriculturalImg from '@assets/generated_images/agricultural_experts_analyzing_farm_data.png';
-import ictAuditImg from '@assets/generated_images/it_professionals_conducting_tech_audit.png';
-import zonalPlansImg from '@assets/generated_images/community_consultation_planning_meeting.png';
-import urbanDesignImg from '@assets/generated_images/urban_designers_presenting_3d_models.png';
-import aiGisImg from '@assets/generated_images/data_scientists_using_ai_for_analysis.png';
-import landSurveyImg from '@assets/generated_images/land_surveyors_at_work_in_rural_area.png';
-import trainingImg from '@assets/generated_images/gis_training_workshop_in_progress.png';
+// Import generated service images with text overlays - featuring Black Kenyan professionals
+import assetManagementImg from '@assets/generated_images/asset_management_systems_with_overlay_text.png';
+import limsImg from '@assets/generated_images/lims_with_overlay_text.png';
+import agriculturalImg from '@assets/generated_images/agricultural_management_with_text.png';
+import ictAuditImg from '@assets/generated_images/ict_audits_with_overlay_text.png';
+import zonalPlansImg from '@assets/generated_images/zonal_planning_with_text_overlay.png';
+import urbanDesignImg from '@assets/generated_images/urban_design_with_text_overlay.png';
+import aiGisImg from '@assets/generated_images/ai-gis_with_text_overlay.png';
+import landSurveyImg from '@assets/generated_images/land_survey_with_text_overlay.png';
+import trainingImg from '@assets/generated_images/training_with_text_overlay.png';
+import gisAnalysisImg from '@assets/generated_images/gis_analysis_with_text_overlay.png';
 
 export const siteAssets = {
   // Hero section background
@@ -61,6 +62,7 @@ export const siteAssets = {
   // Data Engineering service details
   dataEngineeringDetails: {
     aiGis: aiGisImg,
+    gisAnalysis: gisAnalysisImg,
     landSurvey: landSurveyImg,
     training: trainingImg,
   },

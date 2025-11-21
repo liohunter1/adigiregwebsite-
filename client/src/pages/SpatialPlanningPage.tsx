@@ -109,16 +109,13 @@ export default function SpatialPlanningPage() {
               transition={{ duration: 0.6 }}
               className="space-y-4"
             >
-              <div className="rounded-lg overflow-hidden h-64 mb-6">
+              <div className="rounded-lg overflow-hidden h-80 mb-6">
                 <img
                   src={siteAssets.spatialPlanningDetails.zonalPlans}
                   alt="Zonal Plans & Development Regulations"
                   className="w-full h-full object-cover hover-elevate transition-transform duration-300"
                 />
               </div>
-              <h2 className="font-heading text-3xl font-bold text-foreground" data-testid="text-zonal-plans">
-                Zonal Plans & Development Regulations
-              </h2>
               <p className="text-muted-foreground text-lg">
                 Zonal plans control development by articulating the spatial location of various land uses through legally enforceable policies and maps. Each zone has ordinances governing development types, sizes, heights, locations, and urban densities.
               </p>
@@ -150,16 +147,13 @@ export default function SpatialPlanningPage() {
               transition={{ duration: 0.6 }}
               className="space-y-4"
             >
-              <div className="rounded-lg overflow-hidden h-64 mb-6">
+              <div className="rounded-lg overflow-hidden h-80 mb-6">
                 <img
                   src={siteAssets.spatialPlanningDetails.urbanDesign}
                   alt="Urban Design & 3D Visualization"
                   className="w-full h-full object-cover hover-elevate transition-transform duration-300"
                 />
               </div>
-              <h2 className="font-heading text-3xl font-bold text-foreground" data-testid="text-urban-design">
-                Urban Design & 3D Visualization
-              </h2>
               <p className="text-muted-foreground text-lg">
                 Using 3D software like YOLO, our team of urban design professionals creates artistic and skillful plans with vivid pictures of how future places will look. We engage public decision-makers and professionals from architecture, planning, and design.
               </p>
