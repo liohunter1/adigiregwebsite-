@@ -107,35 +107,41 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Contact */}
+          {/* Offices */}
           <div>
-            <h3 className="font-heading font-semibold mb-4">Get in Touch</h3>
-            <ul className="space-y-3 text-sm">
-              <li className="flex items-start gap-2">
-                <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0 text-primary" />
-                <div className="text-secondary-foreground/80 text-xs leading-relaxed">
-                  Northern Wing, Kenrail Towers,<br />5th Floor, Nairobi, Kenya
+            <h3 className="font-heading font-semibold mb-4">Global Offices</h3>
+            <ul className="space-y-4 text-xs">
+              <li>
+                <div className="font-semibold text-secondary-foreground mb-1">Nairobi, Kenya</div>
+                <div className="text-secondary-foreground/80 leading-relaxed mb-2">
+                  Kenrail Towers-Ring Road<br />Mkungu Close<br />P.O. Box 49458-00100
                 </div>
+                <a href="tel:+254743571597" className="text-primary hover:text-primary/80 transition-colors">+254 743 571597</a><br />
+                <a href="mailto:info@digireg.co.ke" className="text-primary hover:text-primary/80 transition-colors">info@digireg.co.ke</a>
               </li>
-              <li>
-                <a
-                  href="tel:+254743571597"
-                  className="flex items-center gap-2 hover-elevate active-elevate-2 inline-flex py-1 px-2 rounded-md -ml-2 text-secondary-foreground/80 hover:text-secondary-foreground transition-colors"
-                  data-testid="link-phone"
-                >
-                  <Phone className="h-4 w-4 text-primary" />
-                  <span className="text-xs">+254 743 571597</span>
-                </a>
+              <li className="pt-2 border-t border-secondary-foreground/10">
+                <div className="font-semibold text-secondary-foreground mb-1">Rotterdam, Netherlands</div>
+                <div className="text-secondary-foreground/80 leading-relaxed mb-2">
+                  Strevelsweg 700 K310<br />3083 AS Rotterdam
+                </div>
+                <a href="tel:+31103074610" className="text-primary hover:text-primary/80 transition-colors">+31 (0)10 307 4610</a><br />
+                <a href="mailto:info@digireg.nl" className="text-primary hover:text-primary/80 transition-colors">info@digireg.nl</a>
               </li>
-              <li>
-                <a
-                  href="mailto:info@digireg.co.ke"
-                  className="flex items-center gap-2 hover-elevate active-elevate-2 inline-flex py-1 px-2 rounded-md -ml-2 text-secondary-foreground/80 hover:text-secondary-foreground transition-colors"
-                  data-testid="link-email"
-                >
-                  <Mail className="h-4 w-4 text-primary" />
-                  <span className="text-xs">info@digireg.co.ke</span>
-                </a>
+              <li className="pt-2 border-t border-secondary-foreground/10">
+                <div className="font-semibold text-secondary-foreground mb-1">Jakarta, Indonesia</div>
+                <div className="text-secondary-foreground/80 leading-relaxed mb-2">
+                  Jalan RS Fatmawati 3A<br />Gandaria Selatan
+                </div>
+                <a href="tel:+622127829000" className="text-primary hover:text-primary/80 transition-colors">+62 (0) 21 2782 9000</a><br />
+                <a href="mailto:info@digireg.co.id" className="text-primary hover:text-primary/80 transition-colors">info@digireg.co.id</a>
+              </li>
+              <li className="pt-2 border-t border-secondary-foreground/10">
+                <div className="font-semibold text-secondary-foreground mb-1">Athens, Greece</div>
+                <div className="text-secondary-foreground/80 leading-relaxed mb-2">
+                  Stadiou 10 (7th floor)<br />105 64 Athens
+                </div>
+                <a href="tel:+306973201758" className="text-primary hover:text-primary/80 transition-colors">+30 697 320 1758</a><br />
+                <a href="mailto:info@digireg.gr" className="text-primary hover:text-primary/80 transition-colors">info@digireg.gr</a>
               </li>
             </ul>
           </div>
