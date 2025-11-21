@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
-import { Menu, X, MapPin } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
+import digiregLogo from "@assets/image_1763729297448.png";
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -49,25 +50,12 @@ export function Navigation() {
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <Link href="/" data-testid="link-home" className="flex items-center gap-2 hover-elevate active-elevate-2 rounded-md px-2 py-1 -ml-2">
-            <div className="flex items-center justify-center w-8 h-8 rounded-md bg-primary/10" data-testid="logo-icon">
-              <svg
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="w-5 h-5 text-primary"
-              >
-                {/* Geospatial/Map layers icon */}
-                <circle cx="12" cy="12" r="10" />
-                <path d="M8 12a4 4 0 0 0 8 0" />
-                <path d="M12 2v6m0 4v6" />
-              </svg>
-            </div>
-            <span className="font-heading text-lg font-bold tracking-tight text-foreground">
-              DIGIREG
-            </span>
+            <img 
+              src={digiregLogo} 
+              alt="Digireg Kenya Logo" 
+              className="h-9 w-auto object-contain"
+              data-testid="logo-icon"
+            />
           </Link>
 
           <div className="hidden md:flex md:items-center md:gap-1">
