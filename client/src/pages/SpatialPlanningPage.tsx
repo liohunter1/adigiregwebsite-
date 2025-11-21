@@ -148,6 +148,45 @@ export default function SpatialPlanningPage() {
         </div>
       </section>
 
+      {/* Video Section */}
+      <section className="py-20 bg-background">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-4xl mx-auto">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              className="text-center mb-12"
+            >
+              <h2 className="font-heading text-3xl font-bold text-foreground mb-4" data-testid="text-spatial-planning-video-heading">
+                Spatial Planning Solutions
+              </h2>
+              <p className="text-muted-foreground text-lg">
+                Watch how we transform spatial planning with geospatial technology
+              </p>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.6 }}
+              className="relative w-full aspect-video rounded-lg overflow-hidden shadow-lg hover-elevate"
+              data-testid="video-spatial-planning"
+            >
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/b0tQrv9A-wo?rel=0&modestbranding=1"
+                title="Spatial Planning Solutions"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="absolute inset-0"
+              />
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-primary/10">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
