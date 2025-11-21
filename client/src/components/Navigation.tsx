@@ -49,8 +49,23 @@ export function Navigation() {
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <Link href="/" data-testid="link-home" className="flex items-center gap-2 hover-elevate active-elevate-2 rounded-md px-2 py-1 -ml-2">
-            <MapPin className="h-6 w-6 text-primary" />
-            <span className="font-heading text-xl font-bold tracking-tight text-foreground">
+            <div className="flex items-center justify-center w-8 h-8 rounded-md bg-primary/10" data-testid="logo-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="w-5 h-5 text-primary"
+              >
+                {/* Geospatial/Map layers icon */}
+                <circle cx="12" cy="12" r="10" />
+                <path d="M8 12a4 4 0 0 0 8 0" />
+                <path d="M12 2v6m0 4v6" />
+              </svg>
+            </div>
+            <span className="font-heading text-lg font-bold tracking-tight text-foreground">
               DIGIREG
             </span>
           </Link>
