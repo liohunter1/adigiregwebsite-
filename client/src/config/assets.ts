@@ -1,0 +1,30 @@
+/**
+ * Centralized Asset Configuration
+ * 
+ * This file manages all visual assets for the Digireg Kenya website.
+ * Update these URLs to customize branding and imagery without touching component code.
+ * 
+ * PRODUCTION DEPLOYMENT:
+ * Replace Unsplash URLs with local assets stored in client/public/images/
+ * or imported from attached_assets/ using the @assets alias:
+ * 
+ * Example: import heroImage from '@assets/hero-background.jpg'
+ * Then use: heroBackground: heroImage
+ */
+
+export const siteAssets = {
+  // Hero section background
+  // Recommended: 2070x1380px (3:2), WebP or optimized JPEG
+  // Should show geospatial/satellite imagery relevant to Digireg's work
+  heroBackground: "https://images.unsplash.com/photo-1589519160732-57fc498494f8?q=80&w=2070&auto=format&fit=crop",
+  
+  // Use case project images
+  // Recommended: 2074x1383px (3:2), WebP or optimized JPEG
+  useCases: {
+    countyPlanning: "https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=2074&auto=format&fit=crop",
+    landInformation: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop",
+    digitalTwin: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2070&auto=format&fit=crop",
+  },
+} as const;
+
+export type SiteAssets = typeof siteAssets;
