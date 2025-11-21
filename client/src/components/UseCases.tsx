@@ -23,38 +23,38 @@ export function UseCases() {
   const useCases: UseCase[] = [
     {
       icon: MapPin,
-      title: "County Spatial Planning",
-      description: "Comprehensive spatial planning framework for county development",
+      title: "Mbale Town - Large Scale Topography Map",
+      description: "Large-Scale Topography Registration mapping for Vihiga County urban planning",
       detailedDescription:
-        "Developed a complete GIS-based spatial planning system for county government, integrating land use data, zoning regulations, and development projections.",
+        "In collaboration with Digireg Netherlands, we conducted a workshop to develop a Large-Scale Topography Registration Map (LTR) for Mbale Town. Using cutting-edge technology including satellite imagery, GIS, and CAD, we created a comprehensive digital representation of the urban area.",
       outcome:
-        "Successfully mapped and analyzed 5,000+ parcels with detailed zoning classifications and development potential assessments.",
+        "Delivered a detailed topographic registration map equipped with data for land use management, zoning analysis, and infrastructure development planning.",
       benefit:
-        "Enabled data-driven decision-making for county planning, reduced approval times by 40%, and improved stakeholder engagement through interactive visualizations.",
+        "Improved urban planning capabilities, enhanced resource management, strengthened disaster readiness and risk reduction. Planning, Public Works, and Environment Departments now make better-informed decisions with real-time, accurate spatial data.",
       imageUrl: siteAssets.useCases.countyPlanning,
     },
     {
       icon: Building,
-      title: "Land Information Management System",
-      description: "Digital transformation of land administration and management",
+      title: "Vihiga County - Data Landscape Assessment",
+      description: "Comprehensive GIS Lab transformation into a Geodetic Service Hub",
       detailedDescription:
-        "Implemented a comprehensive LIMS integrating cadastral data, ownership records, and spatial planning information in a unified digital platform.",
+        "Conducted a thorough data landscape assessment in Vihiga County, identifying technological gaps, workforce retention challenges, and data continuity issues. Our assessment revealed needs for Service Level Agreements, frequent data updates, and organizational restructuring to create a strong data ecosystem.",
       outcome:
-        "Digitized 100,000+ land parcels with complete ownership history, spatial boundaries, and planning restrictions.",
+        "Developed recommendations for GIS Lab transformation into a 'Geodetic Service Hub' providing updated geospatial and analytical tools. Implemented specialized training programs and improved interdepartmental coordination.",
       benefit:
-        "Streamlined land transactions, improved transparency, reduced disputes by 60%, and enabled real-time access to land information for citizens and officials.",
+        "Established foundation for Vihiga County's transition to a data-driven government structure. Health, Agriculture, and Public Service departments now leverage geospatial insights to maximize program efficiency and resource allocation.",
       imageUrl: siteAssets.useCases.landInformation,
     },
     {
       icon: Layers,
-      title: "Digital Twin Mapping",
-      description: "High-resolution object registration for urban planning",
+      title: "Detailed Zoning Planning",
+      description: "Comprehensive zoning framework for sustainable urban development",
       detailedDescription:
-        "Created a digital twin of urban infrastructure using AI-powered GIS at 5-10cm resolution, mapping buildings, roads, utilities, and public assets.",
+        "Developed detailed zoning plans integrating land use classification, development regulations, and spatial analysis. Created interactive GIS-based zoning maps showing residential, commercial, industrial, public, and green space zones with specific ordinances for each area.",
       outcome:
-        "Mapped 50,000+ buildings and infrastructure objects with centimeter-level accuracy using advanced remote sensing and AI classification.",
+        "Delivered comprehensive zoning framework with detailed regulatory guidance, density calculations, and development potential analysis for multiple districts.",
       benefit:
-        "Provided unprecedented detail for urban planning, asset management, emergency response, and infrastructure development. Enabled predictive maintenance and optimization.",
+        "Provides clear development framework for municipalities, improves investment coordination, enables fair property tax assessment, and supports sustainable urban growth planning with environmental and economic considerations.",
       imageUrl: siteAssets.useCases.digitalTwin,
     },
   ];
