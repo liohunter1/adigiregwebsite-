@@ -1,29 +1,46 @@
 import { Link } from "wouter";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
-import { Building2, Map, Database, GraduationCap, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 export default function EGovernancePage() {
   return (
     <div>
-      {/* Hero Section */}
-      <section className="relative min-h-96 flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary/10 via-background to-accent/5 py-20">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      {/* Video Hero Section */}
+      <section className="relative h-screen min-h-screen flex items-center justify-center overflow-hidden" data-testid="section-egovernance-hero">
+        {/* Video Background */}
+        <div className="absolute inset-0 w-full h-full">
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/E9YzuzkLNJk?autoplay=1&mute=1&controls=0&rel=0&modestbranding=1&loop=1&playlist=E9YzuzkLNJk"
+            title="E-Governance Solutions"
+            frameBorder="0"
+            allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            className="absolute inset-0 w-full h-full object-cover"
+            style={{ pointerEvents: "none" }}
+          />
+          {/* Dark Overlay */}
+          <div className="absolute inset-0 bg-black/40" />
+        </div>
+
+        {/* Content Overlay */}
+        <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="max-w-3xl mx-auto text-center"
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="max-w-3xl mx-auto text-center text-white"
           >
-            <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl font-bold text-foreground mb-6" data-testid="text-egovernance-heading">
+            <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl font-bold mb-6 drop-shadow-lg" data-testid="text-egovernance-heading">
               E-Governance Solutions
             </h1>
-            <p className="text-lg text-muted-foreground mb-8" data-testid="text-egovernance-description">
+            <p className="text-xl sm:text-2xl mb-8 drop-shadow-md opacity-95" data-testid="text-egovernance-description">
               We update, improve and manage your basic registrations with cutting-edge digital solutions
             </p>
             <Link href="/contact">
-              <Button size="lg" data-testid="button-egovernance-contact">
+              <Button size="lg" className="bg-accent hover:bg-accent/90 text-white shadow-lg" data-testid="button-egovernance-contact">
                 Start Your Project
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
@@ -150,45 +167,6 @@ export default function EGovernancePage() {
                   </li>
                 </ul>
               </div>
-            </motion.div>
-          </div>
-        </div>
-      </section>
-
-      {/* Video Section */}
-      <section className="py-20 bg-background">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-4xl mx-auto">
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              className="text-center mb-12"
-            >
-              <h2 className="font-heading text-3xl font-bold text-foreground mb-4" data-testid="text-egovernance-video-heading">
-                See E-Governance in Action
-              </h2>
-              <p className="text-muted-foreground text-lg">
-                Watch how our solutions transform government services
-              </p>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, scale: 0.95 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.6 }}
-              className="relative w-full aspect-video rounded-lg overflow-hidden shadow-lg hover-elevate"
-              data-testid="video-egovernance"
-            >
-              <iframe
-                width="100%"
-                height="100%"
-                src="https://www.youtube.com/embed/E9YzuzkLNJk?rel=0&modestbranding=1"
-                title="E-Governance Solutions"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="absolute inset-0"
-              />
             </motion.div>
           </div>
         </div>
