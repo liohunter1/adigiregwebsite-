@@ -1,0 +1,177 @@
+import { Link } from "wouter";
+import { motion } from "framer-motion";
+import { Button } from "@/components/ui/button";
+import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
+import { Building2, Map, Database, GraduationCap, ArrowRight } from "lucide-react";
+
+export default function EGovernancePage() {
+  return (
+    <div>
+      {/* Hero Section */}
+      <section className="relative min-h-96 flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary/10 via-background to-accent/5 py-20">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="max-w-3xl mx-auto text-center"
+          >
+            <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl font-bold text-foreground mb-6" data-testid="text-egovernance-heading">
+              E-Governance Solutions
+            </h1>
+            <p className="text-lg text-muted-foreground mb-8" data-testid="text-egovernance-description">
+              We update, improve and manage your basic registrations with cutting-edge digital solutions
+            </p>
+            <Link href="/contact">
+              <Button size="lg" data-testid="button-egovernance-contact">
+                Start Your Project
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+            </Link>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* E-Governance Services */}
+      <section className="py-20 bg-background">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-4xl mx-auto space-y-20">
+            {/* Digital Spatial Planning */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              className="space-y-4"
+            >
+              <h2 className="font-heading text-3xl font-bold text-foreground" data-testid="text-digital-spatial-planning">
+                Digital Spatial Planning
+              </h2>
+              <p className="text-muted-foreground text-lg">
+                New developments in urban areas create significant impact over time. Infrastructure including housing, transport networks, and business locations affect not only the landscape of towns but also their environment, demographics, and economy.
+              </p>
+              <p className="text-muted-foreground">
+                Digireg strengthens the importance and position of digital spatial planning in your organization through highly detailed, large-scale (10-20cm) digital spatial plans that show development opportunities quickly and easily, audit existing infrastructures, and identify capacity in utility services.
+              </p>
+            </motion.div>
+
+            {/* Asset Management */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              className="space-y-4"
+            >
+              <h2 className="font-heading text-3xl font-bold text-foreground" data-testid="text-asset-management">
+                Asset Management Systems
+              </h2>
+              <p className="text-muted-foreground text-lg">
+                Geospatial information is becoming an essential asset management companion. Our object registration system provides a digital twin of all objects/features on the ground at 10-20cm scale, enabling multiple teams to track maintenance tasks and manage work orders effectively.
+              </p>
+              <p className="text-muted-foreground">
+                Particularly valuable for infrastructure and utilities industry, especially for roads maintenance, our system allows web-based access for all stakeholders with smart GIS analysis based on your specific questions.
+              </p>
+            </motion.div>
+
+            {/* LIMS */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              className="space-y-4"
+            >
+              <h2 className="font-heading text-3xl font-bold text-foreground" data-testid="text-lims">
+                Land Information Management Systems
+              </h2>
+              <p className="text-muted-foreground text-lg">
+                Our GIS-based comprehensive land administration system enables governments to improve land information management (cadastral), property valuation and analysis, and communication with the public.
+              </p>
+              <p className="text-muted-foreground">
+                A single platform provides accurate property representation and understanding, secure and authoritative land records, and parcel data for widespread government and public use. We ensure accuracy and precision with multiple quality checks during data processing.
+              </p>
+            </motion.div>
+
+            {/* Agricultural Management */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              className="space-y-4"
+            >
+              <h2 className="font-heading text-3xl font-bold text-foreground" data-testid="text-agricultural-management">
+                Agricultural Management Systems
+              </h2>
+              <p className="text-muted-foreground text-lg">
+                Technology plays a crucial role in rapid economic growth. Our GIS solutions help farmers and stakeholders achieve increased production and reduced costs through better land resource management.
+              </p>
+              <p className="text-muted-foreground">
+                We accurately map geographic and geologic features of farmlands and project current and future fluctuations in precipitation, temperature, and crop output for more effective farming techniques.
+              </p>
+            </motion.div>
+
+            {/* ICT Services */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              className="space-y-4"
+            >
+              <h2 className="font-heading text-3xl font-bold text-foreground" data-testid="text-ict-services">
+                Geo-ICT Audits & Optimization
+              </h2>
+              <p className="text-muted-foreground text-lg">
+                We provide comprehensive audits of your Geo-ICT environment using our knowledge of software, hardware, and industry best practices.
+              </p>
+              <div className="bg-muted/30 p-6 rounded-lg space-y-3 mt-6">
+                <p className="font-semibold text-foreground">Our audit includes:</p>
+                <ul className="space-y-2 text-sm text-muted-foreground">
+                  <li className="flex items-start gap-2">
+                    <span className="text-primary mt-1">•</span>
+                    <span>Procedures for basic and core processing</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-primary mt-1">•</span>
+                    <span>Data collection, archiving and usage methods</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-primary mt-1">•</span>
+                    <span>Registration and compliance with geo-ICT processes</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-primary mt-1">•</span>
+                    <span>Digitalization level and GIS viewer usage</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-primary mt-1">•</span>
+                    <span>Response to change and innovation</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-primary mt-1">•</span>
+                    <span>Geo-information policy plans</span>
+                  </li>
+                </ul>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-20 bg-primary/10">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="font-heading text-3xl font-bold text-foreground mb-6" data-testid="text-egovernance-cta">
+            Ready to Transform Your Governance?
+          </h2>
+          <p className="text-muted-foreground mb-8 max-w-2xl mx-auto text-lg">
+            Let's discuss how our e-governance solutions can improve your services and operations.
+          </p>
+          <Link href="/contact">
+            <Button size="lg" data-testid="button-egovernance-contact-cta">
+              Get in Touch
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </Button>
+          </Link>
+        </div>
+      </section>
+    </div>
+  );
+}

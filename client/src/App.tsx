@@ -10,6 +10,9 @@ import AboutPage from "@/pages/AboutPage";
 import ServicesPage from "@/pages/ServicesPage";
 import ProjectsPage from "@/pages/ProjectsPage";
 import ContactPage from "@/pages/ContactPage";
+import EGovernancePage from "@/pages/EGovernancePage";
+import SpatialPlanningPage from "@/pages/SpatialPlanningPage";
+import DataEngineeringPage from "@/pages/DataEngineeringPage";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -18,6 +21,9 @@ function Router() {
       <Route path="/" component={Home} />
       <Route path="/about" component={AboutPage} />
       <Route path="/services" component={ServicesPage} />
+      <Route path="/services/e-governance" component={EGovernancePage} />
+      <Route path="/services/spatial-planning" component={SpatialPlanningPage} />
+      <Route path="/services/data-engineering" component={DataEngineeringPage} />
       <Route path="/projects" component={ProjectsPage} />
       <Route path="/contact" component={ContactPage} />
       <Route component={NotFound} />
