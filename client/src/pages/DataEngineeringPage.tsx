@@ -90,11 +90,13 @@ export default function DataEngineeringPage() {
               transition={{ duration: 0.6 }}
               className="space-y-4"
             >
-              <div className="rounded-lg overflow-hidden h-80 mb-6">
+              <div className="rounded-lg overflow-hidden h-64 mb-6 bg-muted">
                 <img
                   src={siteAssets.dataEngineeringDetails.aiGis}
                   alt="Artificial Intelligence & GIS Integration"
+                  loading="lazy"
                   className="w-full h-full object-cover hover-elevate transition-transform duration-300"
+                  style={{ aspectRatio: '16/9' }}
                 />
               </div>
               <p className="text-muted-foreground text-lg">
@@ -127,11 +129,13 @@ export default function DataEngineeringPage() {
               transition={{ duration: 0.6 }}
               className="space-y-4"
             >
-              <div className="rounded-lg overflow-hidden h-80 mb-6">
+              <div className="rounded-lg overflow-hidden h-64 mb-6 bg-muted">
                 <img
                   src={siteAssets.dataEngineeringDetails.gisAnalysis}
                   alt="GIS Analysis & Data Processing"
+                  loading="lazy"
                   className="w-full h-full object-cover hover-elevate transition-transform duration-300"
+                  style={{ aspectRatio: '16/9' }}
                 />
               </div>
               <p className="text-muted-foreground text-lg">
@@ -149,11 +153,13 @@ export default function DataEngineeringPage() {
               transition={{ duration: 0.6 }}
               className="space-y-4"
             >
-              <div className="rounded-lg overflow-hidden h-80 mb-6">
+              <div className="rounded-lg overflow-hidden h-64 mb-6 bg-muted">
                 <img
                   src={siteAssets.dataEngineeringDetails.landSurvey}
                   alt="Land Survey Services"
+                  loading="lazy"
                   className="w-full h-full object-cover hover-elevate transition-transform duration-300"
+                  style={{ aspectRatio: '16/9' }}
                 />
               </div>
               <p className="text-muted-foreground text-lg">
@@ -182,11 +188,13 @@ export default function DataEngineeringPage() {
               transition={{ duration: 0.6 }}
               className="space-y-4"
             >
-              <div className="rounded-lg overflow-hidden h-80 mb-6">
+              <div className="rounded-lg overflow-hidden h-64 mb-6 bg-muted">
                 <img
                   src={siteAssets.dataEngineeringDetails.training}
                   alt="Geo-Scripting & Training"
+                  loading="lazy"
                   className="w-full h-full object-cover hover-elevate transition-transform duration-300"
+                  style={{ aspectRatio: '16/9' }}
                 />
               </div>
               <p className="text-muted-foreground text-lg">

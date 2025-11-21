@@ -87,11 +87,13 @@ export default function EGovernancePage() {
               transition={{ duration: 0.6 }}
               className="space-y-4"
             >
-              <div className="rounded-lg overflow-hidden h-80 mb-6">
+              <div className="rounded-lg overflow-hidden h-64 mb-6 bg-muted">
                 <img
                   src={siteAssets.eGovernanceDetails.assetManagement}
                   alt="Asset Management Systems"
+                  loading="lazy"
                   className="w-full h-full object-cover hover-elevate transition-transform duration-300"
+                  style={{ aspectRatio: '16/9' }}
                 />
               </div>
               <p className="text-muted-foreground text-lg">
@@ -109,11 +111,13 @@ export default function EGovernancePage() {
               transition={{ duration: 0.6 }}
               className="space-y-4"
             >
-              <div className="rounded-lg overflow-hidden h-80 mb-6">
+              <div className="rounded-lg overflow-hidden h-64 mb-6 bg-muted">
                 <img
                   src={siteAssets.eGovernanceDetails.lims}
                   alt="Land Information Management Systems"
+                  loading="lazy"
                   className="w-full h-full object-cover hover-elevate transition-transform duration-300"
+                  style={{ aspectRatio: '16/9' }}
                 />
               </div>
               <p className="text-muted-foreground text-lg">
@@ -131,11 +135,13 @@ export default function EGovernancePage() {
               transition={{ duration: 0.6 }}
               className="space-y-4"
             >
-              <div className="rounded-lg overflow-hidden h-80 mb-6">
+              <div className="rounded-lg overflow-hidden h-64 mb-6 bg-muted">
                 <img
                   src={siteAssets.eGovernanceDetails.agricultural}
                   alt="Agricultural Management Systems"
+                  loading="lazy"
                   className="w-full h-full object-cover hover-elevate transition-transform duration-300"
+                  style={{ aspectRatio: '16/9' }}
                 />
               </div>
               <p className="text-muted-foreground text-lg">
@@ -153,11 +159,13 @@ export default function EGovernancePage() {
               transition={{ duration: 0.6 }}
               className="space-y-4"
             >
-              <div className="rounded-lg overflow-hidden h-80 mb-6">
+              <div className="rounded-lg overflow-hidden h-64 mb-6 bg-muted">
                 <img
                   src={siteAssets.eGovernanceDetails.ictAudit}
                   alt="Geo-ICT Audits & Optimization"
+                  loading="lazy"
                   className="w-full h-full object-cover hover-elevate transition-transform duration-300"
+                  style={{ aspectRatio: '16/9' }}
                 />
               </div>
               <p className="text-muted-foreground text-lg">
