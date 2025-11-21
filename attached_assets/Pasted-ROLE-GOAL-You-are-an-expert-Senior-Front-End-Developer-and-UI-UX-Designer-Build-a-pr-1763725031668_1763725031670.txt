@@ -1,0 +1,152 @@
+ROLE & GOAL  
+You are an expert **Senior Front-End Developer** and **UI/UX Designer**. Build a **production-ready React app (Vite)** for **Digireg Kenya Ltd**, a leading geo-information and data-engineering consultancy. Deliver a complete repository (source code, build scripts, README) in a **single run** so the site can be run locally and deployed. The website should reflect Digireg’s high technical credibility, professionalism, and trusted status in the spatial data world.
+
+TECH STACK (required)  
+- React (Vite)  
+- Tailwind CSS  
+- Framer Motion for animations  
+- Lucide React for icons  
+- Fonts: Inter (body), Oswald or Montserrat (headings)  
+- Use Unsplash (or other open) images for geospatial / map / data-visualization background  
+- Mock contact API (Node/Express or serverless stub) returning JSON success or validation error  
+- Use environment variables for anything sensitive (e.g., MAP_API_KEY), but use placeholders in code
+
+PROJECT CONSTRAINTS (must follow)  
+- Single-run deliverable: full working app (src, public, package.json, vite.config, tailwind.config, README)  
+- Tailwind-only for UI styling (no Bootstrap or other UI frameworks)  
+- Accessibility: semantic HTML, keyboard nav, aria attributes, alt for images  
+- Mobile-first responsive design, optimized for low-to-medium bandwidth (Kenya / Africa context)  
+- Placeholder images (no copyright violation)  
+- Use exact business data from Digireg’s public site where relevant
+
+BUSINESS DATA (use exactly)  
+- Name: Digireg Kenya Ltd  
+- Address / Office: Northern Wing, Kenrail Towers, 5th Floor, Nairobi, Kenya :contentReference[oaicite:0]{index=0}  
+- Phone: +254 743 571597 :contentReference[oaicite:1]{index=1}  
+- Email: info@digireg.co.ke (or placeholder)  
+- Industry: E-governance, Spatial Planning, Data Engineering :contentReference[oaicite:2]{index=2}  
+- Founded: international origin, first Kenya office 2021 :contentReference[oaicite:3]{index=3}  
+- Core Services:  
+  - E-Governance: digital spatial planning, Land Information Management Systems, asset management :contentReference[oaicite:4]{index=4}  
+  - Spatial Planning: GIS-based spatial planning, national/county planning, zonal plans, change-detection, LIMS :contentReference[oaicite:5]{index=5}  
+  - Data Engineering: AI GIS, data cleaning, object registration maps (5-20cm resolution), automation scripting (Python, FME) :contentReference[oaicite:6]{index=6}  
+  - Training & Automation: GIS scripting, geo-ICT training, remote sensing, geo-automation :contentReference[oaicite:7]{index=7}  
+- Company Vision / Promise: “turn data into decisions”; deep data + spatial roots; integrated data for better governance. :contentReference[oaicite:8]{index=8}
+
+BRAND & DESIGN RULES  
+- Logo: text “DIGIREG” (all caps), with maybe a small map-pin or abstract map icon (if image used)  
+- Color palette:  
+  - Primary: Geo-Blue / Deep Teal (trust, tech)  
+  - Secondary: Charcoal / Dark Slate  
+  - Accent: Bright Green (or Orange) — innovation, data  
+  - Neutrals: White, Light Grey  
+- Typography:  
+  - Headings: Oswald or Montserrat  
+  - Body: Inter or Roboto  
+- Imagery: High-quality geospatial / map visuals (satellite, GIS data, planning / city)  
+- Vibe: Innovative, trustworthy, sophisticated, data-driven consulting
+
+SITE MAP & ROUTES  
+- / (Home)  
+- /about  
+- /services  
+- /projects (or “Use Cases”)  
+- /contact  
+- /api/contact (POST) — mock endpoint
+
+NAVIGATION (desktop + mobile)  
+- Logo on left, menu: Home, About, Services, Use Cases, Contact  
+- CTA button: “Talk to an Expert” or “Get in Touch”  
+- Mobile hamburger menu, focus trap, close on ESC or backdrop
+
+HERO SECTION (Home)  
+- Headline: “Turning Data into Decisions” (or similar) — reflect their mission from Digireg’s site :contentReference[oaicite:9]{index=9}  
+- Subheadline: “Geo-Information, E-Governance & Spatial Planning for a Smart, Data-Driven Kenya”  
+- Background: geospatial / satellite / planning imagery with overlay  
+- Buttons: Primary “Our Services” (scroll to Services); Secondary “Get in Touch” (go to Contact)  
+- Under hero: trust / value strip: “Spatial Planning • Data Engineering • E-Governance”
+
+ABOUT SECTION  
+- Overview: Digireg’s origin in the Netherlands, expansion to Kenya in 2021, mission to help governments become data-driven :contentReference[oaicite:10]{index=10}  
+- Values / Why us: integrated data + spatial roots, deep data insights, quality, precision :contentReference[oaicite:11]{index=11}  
+- Key Stats: number of countries / projects (if known), depth of GIS / data engineering, accuracy (90-99%) :contentReference[oaicite:12]{index=12}  
+- Team: highlight key Kenya / spatial planning leadership (e.g., Emmanuel Marete, as per their About page) :contentReference[oaicite:13]{index=13}
+
+SERVICES SECTION  
+Use cards / grid for each service:  
+1. **E-Governance** — digital spatial plans, land information systems, asset management, object registration :contentReference[oaicite:14]{index=14}  
+2. **Spatial Planning** — GIS-based spatial planning, zoning, change detection, planning framework :contentReference[oaicite:15]{index=15}  
+3. **Data Engineering** — AI-GIS, data cleaning, scripting (FME, Python), high-res object registration maps (5-20cm) :contentReference[oaicite:16]{index=16}  
+4. **Training & Automation** — geo-ICT scripting, remote-sensing, web mapping, automated geo workflows :contentReference[oaicite:17]{index=17}
+
+PROJECT / USE CASES SECTION  
+- Show example use cases or “projects”: Spatial planning for counties, Land Information Systems, Object Registration / Digital Twin mapping  
+- Use a grid of cards: each card: name (“Spatial Planning for County X”), short description, outcome / benefit  
+- On hover or click: expand to show more detail (modal or card flip) — e.g., “Using AI-GIS, we mapped 100,000 buildings at 10cm resolution to build a digital twin.” (use as placeholder, but reflect Digireg’s capabilities) :contentReference[oaicite:18]{index=18}  
+- Use map-style or data-visualization-style imagery for cards
+
+TRUST & TESTIMONIALS  
+- Include a “Trusted By” or “Partners” strip: governments / counties / public sector logos (placeholder)  
+- Testimonials: use sample quotes (if you don’t have real ones) like:  
+  - “Digireg helped us create a land-information system that transformed how we plan our county.”  
+  - “Thanks to Digireg’s data engineering, our asset management is now far more precise.”
+
+CONTACT PAGE & FORM  
+- Left: Contact details — address (Kenrail Towers, Nairobi) :contentReference[oaicite:19]{index=19}  
+- Phone: +254 743 571597 :contentReference[oaicite:20]{index=20}  
+- Email: info@digireg.co.ke (or placeholder)  
+- Contact form: fields: Name, Email, Organization, Service of Interest (dropdown: E-Governance / Data / Planning / Training), Message, Consent checkbox  
+- Validation: JS validation (required, email format)  
+- Submit: call mock /api/contact endpoint, show loading, then success or error message
+
+FOOTER  
+- Quick nav links  
+- Social icons / links (LinkedIn, Twitter, etc., placeholder)  
+- Copyright: “© 2025 Digireg Kenya Ltd”  
+- Legal / Privacy link (placeholder)
+
+ACCESSIBILITY & PERFORMANCE  
+- Semantic HTML (header, nav, main, section, footer)  
+- Alt tags for images  
+- Keyboard navigation (menu, modal)  
+- Responsive design: mobile-first  
+- Lazy-load images  
+- Optimize for speed and low-bandwidth (small JS, minimized CSS)  
+- Meta / SEO tags: Title (“Digireg Kenya Ltd — Geo-Information & Data Engineering”), description (“Digireg Kenya Ltd helps governments and organizations become data-driven with spatial planning, e-governance and high-resolution object-registration.”), Open Graph
+
+INTERACTION & ANIMATION  
+- Framer Motion: animate hero entrance, card hover lift, modals  
+- Smooth scroll for CTAs  
+- Reduced-motion support via media query
+
+CODE STRUCTURE & NAMING  
+Provide clear folder/file structure:  
+- `package.json`, `vite.config.ts`, `tailwind.config.cjs`, `postcss.config.cjs`  
+- `src/`  
+  - `main.jsx`  
+  - `App.jsx`  
+  - `index.css` (Tailwind)  
+  - `components/` (Nav, Hero, Services, UseCases, ContactForm, Footer, Modal, MapPlaceholder, etc.)  
+  - `pages/` (Home, About, Services, Projects, Contact)  
+  - `utils/` (api.js, validators.js)  
+  - `data/` (services.js, usecases.js)  
+  - `assets/` (placeholder images or instructions for Unsplash)  
+- `server/` (if mock API) — contact-server.js (Express or serverless)  
+- `README.md` (run instructions, deploy, env variables)
+
+README CONTENT  
+- Project summary (Digireg Kenya, mission)  
+- Tech stack  
+- How to run: `npm install`, `npm run dev`, `npm run build`  
+- Deploy instructions (Netlify / Vercel / GitHub Pages)  
+- How to replace placeholder images (Unsplash), how to set MAP_API_KEY or real contact API  
+- Accessibility & performance notes
+
+TESTING & LINTING (optional but recommended)  
+- ESLint / Prettier config  
+- Basic test: React Testing Library for ContactForm (validate required fields)
+
+FINAL REMARK  
+Create a high-end, polished, authoritative site that clearly communicates Digireg Kenya’s expertise in spatial planning, data engineering, and geospatial governance. The site should impress government and institutional clients, not just be a brochure — it’s a tech-consultancy identity piece.
+
+--- END PROMPT ---
